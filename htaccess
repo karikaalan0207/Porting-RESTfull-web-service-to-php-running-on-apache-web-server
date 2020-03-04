@@ -1,0 +1,4 @@
+RewriteEngine on
+ReWriteRule ^addstud/([0-9]+)/([A-Za-z0-9]+)/([0-9]+)$  addstd.php?rollno=$1&sname=$2&year=$3 [QSA]
+ReWriteRule ^delstud/([0-9]+)$  delstd.php?rollno=$1 [QSA]
+ReWriteRule ^showdat/([0-9]+)$  retdat.php?rollno=$1 [QSA]
